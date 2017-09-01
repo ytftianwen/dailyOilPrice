@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+.title {
+  text-align: center;
+}
+.container {
+    padding: 10rpx;
+}
+
+/* .header, .body {
+  display: flex;
+} */
+.body {
+  margin-top: -1rpx
+}
+.item {
+    display: inline-block;
+    font-size: 20rpx;
+    border-top: 1rpx solid #ddd;
+    border-bottom: 1rpx solid #ddd;
+    height: 28px;
+    text-align: center;
+    line-height: 28px;
+    margin-top: -1rpx;
+    margin-left: -1rpx;
+}
+
+.item-0, .item-1 {
+    width: 15%;
+}
+
+.item-2, .item-3, .item-4 {
+    width: 21%;
+}

@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="title">
+  <text>今日油价-{{now}}</text>
+</view>
+<view class="container">
+    <view class='header'>
+        <view class="item item-0">地区</view>
+        <view class="item item-1">b0</view>
+        <view class="item item-2">90</view>
+        <view class="item item-3">93</view>
+        <view class="item item-4">97</view>
+    </view>
+    <view class='body' wx:for="{{list}}">
+        <view class="item item-0">{{item.city}}</view>
+        <view class="item item-1">{{item.b0}}</view>
+        <view class="item item-2">{{item.b90}}</view>
+        <view class="item item-3">{{item.b93}}</view>
+        <view class="item item-4">{{item.b97}}</view>
+    </view>
+</view>
